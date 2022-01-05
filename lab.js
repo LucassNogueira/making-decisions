@@ -52,8 +52,8 @@ if (amysBirthYear === brittanisBirthYear){
 
 // ////////// PROBLEM 4 //////////
 
-let temperature = 55
-let rain = false
+let temperature = 77
+let rain = true
 
 // /*
 //   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, 
@@ -83,6 +83,9 @@ if(temperature >= 80 && rain === true){
 // /*
 //   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 // */
+for (let i=0; i<10; i++){
+  console.log('Hello');
+}
 
 // //CODE HERE
 
