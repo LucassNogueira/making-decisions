@@ -144,16 +144,16 @@
 
 // //CODE HERE
 
-let changeMyMind = true
+let changeMyMind = false
 
 
-if (changeMyMind === true){
-  changeMyMind = !true;
-  console.log(changeMyMind);
-}else if (changeMyMind === !true){
-  changeMyMind = true;
-  console.log(changeMyMind);
-}
+// if (changeMyMind === true){
+//   changeMyMind = false;
+//   console.log(changeMyMind);
+// }else{
+//   changeMyMind = true;
+//   console.log(changeMyMind);
+// }
 
 
 // ////////// PROBLEM 10 //////////
@@ -161,7 +161,13 @@ if (changeMyMind === true){
 
 // //CODE HERE
 
-
+if(changeMyMind === true){
+  changeMyMind = !true;
+  console.log(changeMyMind);
+} else if (changeMyMind !== true){
+  changeMyMind = true;
+  console.log(changeMyMind)
+}
 
 // ////////// ADVANCED PROBLEMS //////////
 
