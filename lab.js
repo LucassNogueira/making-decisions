@@ -44,7 +44,11 @@ var brittanisBirthYear = 1986
 // */
 
 // //CODE HERE
-
+if (amysBirthYear === brittanisBirthYear){
+  console.log('Amy & Brittani were born in the same year.');
+} else {
+  console.log('Amy and Brittani are not born in the same year.');
+}
 
 // ////////// PROBLEM 4 //////////
 
