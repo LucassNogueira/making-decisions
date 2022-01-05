@@ -111,10 +111,15 @@ for (let i=1; i<11; i++){
 
 // //CODE HERE
 
-let score = 0
-let passingScore = 7
+for (let i=10; i>=1; i--){
+  console.log(i);
+}
+
 
 // ////////// PROBLEM 8 //////////
+
+let score = 0
+let passingScore = 7
 
 // /*
 //   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
